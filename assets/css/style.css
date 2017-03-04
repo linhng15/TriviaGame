@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-image: url("assets/images/cubes_@2X.png");
+  background-size: 100%;
+  background-repeat: all;
+  font-size: 20px;
+}
+
+#mainContent {
+  width: 65%;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+#gameDirections {
+  text-align: center;
+}
+
+.answers {
+  text-align: center;
+}
+
+.triviaImage {
+  width: 200px;
+  height: 200px;
+}
+
+.button {
+  border-top: 2px solid #96d1f8;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  vertical-align: middle;
+  font-size: 22px;
+}
