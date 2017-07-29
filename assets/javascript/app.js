@@ -6,7 +6,7 @@ var timer;
 var time; //for timer
 var question;
 var questions = [{
-    question: "How many double mopoly will land you in jail?",
+    question: "How many double monopoly will land you in jail?",
     choice1: "one",
     choice2: "two",
     choice3: "three",
@@ -16,7 +16,7 @@ var questions = [{
   },
 
   {
-    question: "The cost of monopoly to get out of jail time 5?",
+    question: "The cost of monopoly to get out of jail times 5?",
     choice1: "50",
     choice2: "150",
     choice3: "200",
@@ -54,7 +54,8 @@ var questions = [{
     choice4: "400",
     triviaImage: "assets/images/tax.jpg",
     answer: 4
-  }, {
+  }, 
+  {
     question: "How many color groups are there in monopoly?",
     choice1: "5",
     choice2: "6",
@@ -62,8 +63,9 @@ var questions = [{
     choice4: "8",
     triviaImage: "assets/images/color.jpg",
     answer: 4
-  }, {
-    question: "Trick question: What the maximum of rolls, starting from GO, for a full circle?",
+  }, 
+  {
+    question: "Trick question: What is the maximum of rolls, starting from GO, for a full circle?",
     choice1: "4",
     choice2: "10",
     choice3: "20",
@@ -133,7 +135,7 @@ function checkAnswer(answer) {
 //click listener for new display of answer?
 
 function showQuestion() {
-  time = 30;
+  time = 120;
   $(".timeCounter").show();
   $(".timeCounter").html('<h2>Timer: ' + time + 's</h2>');
 
